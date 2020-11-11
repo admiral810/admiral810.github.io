@@ -1,34 +1,74 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
   <meta charset="UTF-8">
-  <title>Adam Roberts Bio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Adam Roberts Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="static/css/style.css">
 </head>
 
+
 <body>
-  <h1>Hello -- welcome to by bio.</h1>
 
-  <img src="http://en.spongepedia.org/images/thumb/3/33/Spongebob!!!.jpg/180px-Spongebob!!!.jpg", alt="Bio Photo" />
-  <p>I am an innovative, analytical, customer focused professional desiring to continue my career in providing solutions for customers and internal stakeholders using stories developed through data interpretation.  I have experience with operator, industry, menu, consumer, and category datasets – which I enjoy leveraging to provide insights on category management, sales & marketing strategies, market performance, and research & development. 
-  <br />
-  <br />
-    In my current Sr. Manager role within the Product Team at Technomic I manage two of the newer big data products Technomic has brought to market.  Volumix is a product that tracks operator back of house purchasing information at a SKU level, assisting suppliers in understanding category performance, price, competition, and other operator purchasing insights. Transaction Insights is a restaurant operator and industry tracker that leverages electronic payment, geo location, and other data sources modelled to project restaurant brand level performance.
-  </p>
-  <h3>List of Links</h3>
-  <ul>
-      <li>LinkedIn</li>
-      <li>Github</li>
-      <li>Email</li>
-    
-    </ul>
-  <ul>
-    <li>Big Data Product Management</li>
-    <li>SQL, Python, Pandas, Matplotlib</li>
-    <li>Advanced Excel User</li>
-  
-  </ul>
-  <br />
+<!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Home </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Select Genre
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="action.html">Action</a>
+            <a class="dropdown-item" href="comedy.html">Comedy</a>
+            <a class="dropdown-item" href="family.html">Family</a>
+            <a class="dropdown-item" href="romance.html">Romance</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="all_genres.html">All Genres</a>
+        </div>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="movies_data.html" tabindex="-1" aria-disabled="true">Data</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h2>Adam Roberts</h2>
+        <img src="images/adam.jpg">
+      </div>
+      <div class="col-md-9">
+        <br>
+        <p>Innovative, highly analytical, customer-focused professional with 15 years of experience managing data-centric products. Adept at 
+          conceptualizing and leading products to increase data quality, bring high value solutions to customers, and identify ways to drive 
+          overall product sales. Strengths include leveraging data analysis tools directly, presenting data analysis findings with actionable 
+          insights, supporting sales calls, establishing and managing customer relationships, and collaborating with colleagues.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <img src="images/venn_diagram.png">
+      </div>
+    </div>
+
+    <!-- tableau dashboard -->
+    <div class='tableauPlaceholder' id='viz1605133505194' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ex&#47;ExampleOrderData&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ExampleOrderData&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ex&#47;ExampleOrderData&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1605133505194');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1020px';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1020px';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+  </div>
 </body>
 
 </html>
