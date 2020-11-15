@@ -8,13 +8,15 @@
   <title>Adam Roberts Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="static/css/style.css">
+  <link rel="stylesheet" href="static/style.css">
+
 </head>
 
 
 <body>
 
 <!-- Nav Bar -->
+<!-- Make the Navbar sticky https://www.w3schools.com/howto/howto_js_navbar_sticky.asp -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="index.html">Home </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,26 +47,94 @@
   </nav>
 
   <div class="container">
-    <div class="row">
-      <div class="col-md-3">
-        <h2>Adam Roberts</h2>
-        <img src="images/adam.jpg">
+    <br>
+    <div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="section-header">Welcome</h2>
+          <hr>
+        </div>
       </div>
-      <div class="col-md-9">
+    </div>
+
+    <div class="row">
+      <div class="col-md-8">
+        <p>Welcome to my professional website! Here you'll find summary information of my strengths and experience. You can also check out some 
+          actual working examples on my gallery page. Thanks for stopping by!
+        </p>
+      </div>
+      <div class="col-md-4">
         <br>
-        <p>Innovative, highly analytical, customer-focused professional with 15 years of experience managing data-centric products. Adept at 
-          conceptualizing and leading products to increase data quality, bring high value solutions to customers, and identify ways to drive 
+        <img src="images/adam.jpg">
+        <h5>Adam Roberts</h5>
+      </div>
+    </div>
+
+    <br>
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="section-header">Professional Summary</h2>
+        <hr>
+        <p>I am an <b><span style="background-color:#FFB60D;">innovative</span></b>, <b><span style="background-color:#118AB2; color:white"> analytical</span></b>, 
+          <b><span style="background-color:#EF476F; color:white">customer-focused</span></b> professional with 15 years of experience managing consumer, transaction, 
+          and other data-centric insights projects. Adept at conceptualizing and leading products to increase data quality, bring high value solutions to customers, and identify ways to drive 
           overall product sales. Strengths include leveraging data analysis tools directly, presenting data analysis findings with actionable 
-          insights, supporting sales calls, establishing and managing customer relationships, and collaborating with colleagues.</p>
+          insights, supporting sales calls, establishing and managing customer relationships, and collaborating with colleagues.</p> 
+        <p>Here is a vizualization of how my core strengths come together to grow products, businesses, and provide best in class customer service:</p>
+        
+      </div>
+    </div>
+
+    <!-- Venn Diagram -->
+    <div class="row">
+      <div class="col-md-12">
+        <img class="venn" src="images/venn_diagram2.png">
+        <br><br> 
+      </div>
+    </div>
+
+    <br>
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="section-header">Work History</h2>
+        <hr>
       </div>
     </div>
 
     <div class="row">
       <div class="col-md-12">
-        <img src="images/venn_diagram.png">
+        <h4><b>Technomic  (2014–Current)</b></h4>
+        <p>Technomic is a market research consolting firm in the foodservice industry.</p>
+        <h5>Department: Products Team</h5>
+        <h5>Role: Director, Product Management</h5>
+        <h6>Supervise new-to-market big data products for Technomic, a foodservice consulting and market research firm. Lead for strategy, data management, 
+          reporting, development, marketing, analytics, and sales support for these transaction and consumer data products.</h6>
+        <ul>
+          <li>Spearheaded growth of restaurant purchasing data product used for category management and SKU level insights. Developed product repositioning leading to a 50% increase of sales in 2018 and 100% customer retention in 2019. </li>
+          <li>Designed data models to project sales and traffic measures for 500 restaurant brands and 20 third-party delivery providers using consumer electronic payment and geolocation-tracking data sources.</li>
+          <li>Launched online portal for restaurant consumer and payments tracker by gathering customer feedback, writing technical requirements, testing the product, and conducting customer training.</li>
+          <li>Led machine learning project to 97% accuracy for mapping over 440K SKUs from multiple complex data sources to a single category hierarchy. </li>
+          <li>Formulated architecture of SQL database to map thousands of attributes, quality measures, and error checks that enrich data. </li>
+          <li>Crafted engaging interactive report leveraging SQL and PowerPivot, allowing for customers to dynamically view food and beverage category information. </li>
+          <li>Automated report creation using Python to extract data from SQL, transforming it into summary tables and impactful data visualizations for end customers. </li>
+          <li>Created innovative market basket and customer switching views for supplier customers leveraging transaction data, providing them new actionable information.</li>
+          <li>Presented numerous data-driven stories leveraging transaction, consumer, and other insights perspectives to key stakeholders and senior executives across a diverse range of companies.</li>
+        </ul>
+      </div>
+
+    </div>
+
+
+<br><br><br><br><br>
+    <div class="card bg-light mb-3" style="max-width: 18rem;">
+      <div class="card-header">Header</div>
+      <div class="card-body">
+        <h5 class="card-title">Light card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
     </div>
 
+<br><br><br><br><br>
     <!-- tableau dashboard -->
     <div class='tableauPlaceholder' id='viz1605133505194' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ex&#47;ExampleOrderData&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ExampleOrderData&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ex&#47;ExampleOrderData&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1605133505194');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1020px';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1020px';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
