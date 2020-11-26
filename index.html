@@ -8,8 +8,15 @@
   <title>Adam Roberts Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="static/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="static/style.css">
 </head>
 
 
@@ -25,22 +32,21 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
      <ul class="navbar-nav mr-auto">
-
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html" tabindex="-1" aria-disabled="true">Portfolio</a>
+        </li>
         <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Select Genre
+            Links
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="action.html">Action</a>
-            <a class="dropdown-item" href="comedy.html">Comedy</a>
-            <a class="dropdown-item" href="family.html">Family</a>
-            <a class="dropdown-item" href="romance.html">Romance</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="all_genres.html">All Genres</a>
-        </div>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://www.linkedin.com/in/adam-roberts-42682413/" target="_blank">LinkedIn</a>
+              <a class="dropdown-item" href="https://github.com/admiral810" target="_blank">Github</a>
+              <a class="dropdown-item" href="https://public.tableau.com/profile/adam1474" target="_blank">Tableau Public</a>
+          </div>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="movies_data.html" tabindex="-1" aria-disabled="true">Data</a>
+          <a class="nav-link" href="Adam_Roberts_Resume.pdf" tabindex="-1" aria-disabled="true" download>Resume</a>
         </li>
       </ul>
     </div>
@@ -58,15 +64,41 @@
     </div>
 
     <div class="row">
-      <div class="col-md-8">
-        <p>Welcome to my professional website! Here you'll find summary information of my strengths and experience. You can also check out some 
-          actual working examples on my gallery page. Thanks for stopping by!
-        </p>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="images/adam.jpg" alt="Adam" style="width:100%">
+          <!-- <h1 class="bio-name">Adam Roberts</h1> -->
+          <p class="title">Adam Roberts</p>
+          <p>Data Management, Analysis, and Vizualization Professional</p>
+          <div style="margin: 24px 0;">
+            <a class="fa-logo" href="https://www.linkedin.com/in/adam-roberts-42682413/" target="_blank"><i class="fa bio-link fa-linkedin"></i></a>  
+            <a class="fa-logo" href="https://github.com/admiral810" target="_blank"><i class="fa bio-link fa-github"></i></a>
+            <!-- <a href="#"><i class="fa fa-plus"</i></a>  -->
+            <a class="fa-logo" href="mailto:adamjamesroberts@gamil.com"><i class="fa bio-link fa-envelope"></i></a> 
+          </div>
+          <!-- <p><button>Contact</button></p> -->
+        </div>
       </div>
-      <div class="col-md-4">
-        <br>
-        <img src="images/adam.jpg">
-        <h5>Adam Roberts</h5>
+
+
+      <div class="col-md-8">
+        <p>Hello!
+          <br><br>
+          Welcome to my professional website, thanks for stopping by. I created this to help show how I work, provide some project examples, and 
+          tell you a little bit more about myself. 
+          <br><br>
+          You can check out some actual examples of my work on my <a href=portfolio.html>portfolio page</a>, which showcases project work I've done 
+          using SQL, Python, Tableau, and other data analytics tools. Of course this isn't going to be an entirety of projects I've complete, as 
+          most of those are proprietary to the companies I've worked for. However as a hobbyist who's always looking to build upon my skill-set I 
+          have completed projects outside of my work responsibilities which I can share that showcase my abilities.
+          <br><br>
+          You can also find my <a href=Adam_Roberts_Resume.pdf>resume</a> for more informaiton on my background along with links to my Github, LinkedIn, 
+          and Tableau Public pages.
+          <br><br>
+          Feel free to reach out to me via email should you have any questions or want to connect, I'd love to hear from you!
+          <br><br>
+          -Adam
+        </p>
       </div>
     </div>
 
@@ -75,14 +107,17 @@
       <div class="col-md-12">
         <h2 class="section-header">Professional Summary</h2>
         <hr>
-        <p>I am an <b><span style="background-color:#FFB60D;">innovative</span></b>, <b><span style="background-color:#118AB2; color:white"> analytical</span></b>, 
-          <b><span style="background-color:#EF476F; color:white">customer-focused</span></b> professional with 15 years of experience managing consumer, transaction, 
-          and other data-centric insights projects. Adept at conceptualizing and leading products to increase data quality, bring high value solutions to customers, and identify ways to drive 
-          overall product sales. Strengths include leveraging data analysis tools directly, presenting data analysis findings with actionable 
-          insights, supporting sales calls, establishing and managing customer relationships, and collaborating with colleagues.</p> 
-        <p>Here is a vizualization of how my core strengths come together to grow products, businesses, and provide best in class customer service:</p>
-        
       </div>
+    </div>
+
+  
+    <div class="row">
+      <div class="col-md-11">
+        <p>I am an <b><span style="background-color: rgba(255,182,13, .9);">innovative</span></b>, <b><span style="background-color: rgba(17,138,178, .8); color:white"> analytical</span></b>, 
+          <b><span style="background-color: rgba(239,71,111, .8); color:white">customer-focused</span></b> professional with 15 years of experience managing consumer, transaction, 
+          and other data-centric insights projects. Here is a visualization of how my core strengths come together to grow products, businesses, and provide best in class customer service:</p>
+      </div>
+      <div class="col-md-4"></div>
     </div>
 
     <!-- Venn Diagram -->
@@ -93,52 +128,184 @@
       </div>
     </div>
 
+
+
+    <!-- CARD FOR TECHNICAL SKILLS -->
+    <!-- <div class="row">
+      <div class="col-md-4">
+        <div class="card bg-light mb-3" style="max-width: 18rem;">
+          <div class="card-header">Technical Skills</div>
+          <div class="card-body"> -->
+            <!-- <h5 class="card-title">Light card title</h5> -->
+            <!-- <ul>
+              <li>Advanced Excel</li>
+              <li>SQL</li>
+              <li>Tableau</li>
+              <li>Power BI / PowerPivot</li>
+              <li>Python</li>
+              <li>Pandas</li>
+              <li>Big data</li>
+              <li>Basic HTML/CSS/Javascript</li>
+              <h7><i>I did make this site :)</i></h7>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+
     <br>
     <div class="row">
       <div class="col-md-12">
-        <h2 class="section-header">Work History</h2>
+        <h2 class="section-header">Career Journey</h2>
         <hr>
       </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-12">
-        <h4><b>Technomic  (2014–Current)</b></h4>
-        <p>Technomic is a market research consolting firm in the foodservice industry.</p>
-        <h5>Department: Products Team</h5>
-        <h5>Role: Director, Product Management</h5>
-        <h6>Supervise new-to-market big data products for Technomic, a foodservice consulting and market research firm. Lead for strategy, data management, 
-          reporting, development, marketing, analytics, and sales support for these transaction and consumer data products.</h6>
-        <ul>
-          <li>Spearheaded growth of restaurant purchasing data product used for category management and SKU level insights. Developed product repositioning leading to a 50% increase of sales in 2018 and 100% customer retention in 2019. </li>
-          <li>Designed data models to project sales and traffic measures for 500 restaurant brands and 20 third-party delivery providers using consumer electronic payment and geolocation-tracking data sources.</li>
-          <li>Launched online portal for restaurant consumer and payments tracker by gathering customer feedback, writing technical requirements, testing the product, and conducting customer training.</li>
-          <li>Led machine learning project to 97% accuracy for mapping over 440K SKUs from multiple complex data sources to a single category hierarchy. </li>
-          <li>Formulated architecture of SQL database to map thousands of attributes, quality measures, and error checks that enrich data. </li>
-          <li>Crafted engaging interactive report leveraging SQL and PowerPivot, allowing for customers to dynamically view food and beverage category information. </li>
-          <li>Automated report creation using Python to extract data from SQL, transforming it into summary tables and impactful data visualizations for end customers. </li>
-          <li>Created innovative market basket and customer switching views for supplier customers leveraging transaction data, providing them new actionable information.</li>
-          <li>Presented numerous data-driven stories leveraging transaction, consumer, and other insights perspectives to key stakeholders and senior executives across a diverse range of companies.</li>
-        </ul>
-      </div>
-
-    </div>
-
-
-<br><br><br><br><br>
-    <div class="card bg-light mb-3" style="max-width: 18rem;">
-      <div class="card-header">Header</div>
-      <div class="card-body">
-        <h5 class="card-title">Light card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <div class="col-md-11">
+        <p>Below you will find a timeline of my career journey, which includes both my work experience and education. I have been fortunate to work for 
+          some great companies which has exposed me to challenging roles, interesting data sets, and increased responsibility throughout my career. My 
+          background is a mix of both project management and account management, where providing actionable data-driven insights is at the core of what I do.   
+          <br><br>
+          You can find more detail on these roles and some of my contributions by downloading my <a href="Adam_Roberts_Resume.pdf" download>resume</a>.
+        </p>
+        <br>
       </div>
     </div>
 
-<br><br><br><br><br>
-    <!-- tableau dashboard -->
-    <div class='tableauPlaceholder' id='viz1605133505194' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ex&#47;ExampleOrderData&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ExampleOrderData&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ex&#47;ExampleOrderData&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1605133505194');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1020px';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1020px';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    
+    <!--work history timeline  -->
 
+  <div class="container">
+    <div class="timeline">
+      <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
+        <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
+          <h3 class=" text-light">Director, Product Management</h3>
+          <p>Supervise new-to-market big data products for Technomic, a foodservice consulting and market research firm. Lead for strategy, data management, reporting, development, marketing, analytics, and sales support for these transaction and consumer data products.</p>
+        </div>
+        <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+          <img src="images/technomic_logo.png" class="img-fluid" alt="technomic image">
+        </div>
+        <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
+          <time>2019 - 2020</time>
+        </div>
+      </div>
+      <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
+        <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
+          <h3 class=" text-light">Data Science Bootcamp</h3>
+          <p>Six-month certification bootcamp through Northwestern focused on data science technical skills development.</p>
+        </div>
+        <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+          <img src="images/northwestern-logo.jpg" class="img-fluid" alt="northwestern image">
+        </div>
+        <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
+          <time>2019 - 2020</time>
+        </div>
+      </div>
+      <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
+        <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
+          <h3 class=" text-light">Sr. Manager, Products</h3>
+          <p>Transitioned to Product Team at Technomic to manage new to market big data transaction and consumer insights products.</p>
+        </div>
+        <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+          <img src="images/technomic_logo.png" class="img-fluid" alt="technomic image">
+        </div>
+        <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
+          <time>2017 - 2019</time>
+        </div>
+      </div>
+      <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
+        <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
+          <h3 class=" text-light">Account Team Manager</h3>
+          <p>Managed team of three Account Managers who provided strategic support to supplier, restaurant, distributor, and financial customers for leveraging Technomic’s online market research tools.</p>
+        </div>
+        <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+          <img src="images/technomic_logo.png" class="img-fluid" alt="ecolab image">
+        </div>
+        <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
+          <time>2016 - 2017</time>
+        </div>
+      </div>
+      <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
+        <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
+          <h3 class=" text-light">Account Manager</h3>
+          <p>Strategic account manager and primary point of contact for subscribed customers of Technomic market research tools.</p>
+        </div>
+        <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+          <img src="images/technomic_logo.png" class="img-fluid" alt="technomic image">
+        </div>
+        <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
+          <time>2014 - 2016</time>
+        </div>
+      </div>
+      <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
+        <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
+          <h3 class=" text-light">Operations Manager</h3>
+          <p>Managed a five-person operations team for onsite data collection programs for restaurant and hospitality chains. Supervised all project development stages, including ideation, questionnaire development, ongoing support, reporting and presenting.</p>
+        </div>
+        <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+          <img src="images/ecolab-logo.jpg" class="img-fluid" alt="ecolab image">
+        </div>
+        <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
+          <time>2009 - 2014</time>
+        </div>
+      </div>
+      <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
+        <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
+          <h3 class=" text-light">Account Manager</h3>
+          <p>Strategic account manager and primary point of contact for onsite data colleciton programs.</p>
+        </div>
+        <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+          <img src="images/ecolab-logo.jpg" class="img-fluid" alt="technomic image">
+        </div>
+        <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
+          <time>2014 - 2016</time>
+        </div>
+      </div>
+      <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
+        <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
+          <h3 class=" text-light">Operations Specialist</h3>
+          <p>Project contributor for onsite data collection programs.</p>
+        </div>
+        <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+          <img src="images/ecolab-logo.jpg" class="img-fluid" alt="ecolab image">
+        </div>
+        <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
+          <time>2005 - 2006</time>
+        </div>
+      </div>
+      <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
+        <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
+          <h3 class=" text-light">Account Executive</h3>
+          <p>Worked at Clear Channel providing advertisers research on local markets, and outlets to reach customers to grow their business through a variety of media products.</p>
+        </div>
+        <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+          <img src="images/clear-channel-logo.jpg" class="img-fluid" alt="technomic image">
+        </div>
+        <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
+          <time>2005 - 2006</time>
+        </div>
+      </div>
+      <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
+        <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
+          <h3 class=" text-light">Bachelor of Science, Marketing</h3>
+          <p>Obtained a Marketing bachelor's degree with an emphasis in Market Research from the University of Dayton..</p>
+        </div>
+        <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+          <img src="images/dayton-logo.jpg" class="img-fluid" alt="ecolab image">
+        </div>
+        <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
+          <time>2000 - 2004</time>
+        </div>
+      </div>
+    </div>
   </div>
+
+
+
+
+</div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 </body>
 
 </html>
