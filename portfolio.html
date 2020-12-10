@@ -9,6 +9,11 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link rel="stylesheet" href="static/style.css">
@@ -27,26 +32,26 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
      <ul class="navbar-nav mr-auto">
-
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html" tabindex="-1" aria-disabled="true">Portfolio</a>
+        </li>
         <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Select Genre
+            Links
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="action.html">Action</a>
-            <a class="dropdown-item" href="comedy.html">Comedy</a>
-            <a class="dropdown-item" href="family.html">Family</a>
-            <a class="dropdown-item" href="romance.html">Romance</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="all_genres.html">All Genres</a>
-        </div>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://www.linkedin.com/in/adam-roberts-42682413/" target="_blank">LinkedIn</a>
+              <a class="dropdown-item" href="https://github.com/admiral810" target="_blank">Github</a>
+              <a class="dropdown-item" href="https://public.tableau.com/profile/adam1474" target="_blank">Tableau Public</a>
+          </div>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="portfolio.html" tabindex="-1" aria-disabled="true">Portfolio</a>
+          <a class="nav-link" href="Adam_Roberts_Resume.pdf" tabindex="-1" aria-disabled="true" download>Resume</a>
         </li>
       </ul>
     </div>
   </nav>
+<!-- Nav Bar End-->
 
   <div class="container">
     <br>
@@ -58,6 +63,84 @@
         </div>
       </div>
     </div>
+
+      
+    <div class="row">
+      <div class="col-md-11">
+        <p>Thank you for visiting my portfolio! Here you can check out some actual examples of my work, which showcases projects I've done using SQL, Python, Tableau, and other 
+          data analytics tools. Each project will highlight a brief summary of what it is, how it was built, a vizualization, and may include some additional links.</p>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <br>
+
+    <!-- housing market insights -->
+    <div class="row">
+      <div class="col-md-11">
+        <h4 class="project-header-blue">Housing Market Insights</h4>
+        <p class=hashtag>#Python  #JavaScript  #HTML  #CSS  #SQL</p>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+        <p><b>What It Is:</b> This is an interactive web deplyed app that you can go to <a href="http://housing-markets.herokuapp.com/" target="_blank">linked HERE</a>. It allows a user to browse various 
+          housing market insights by US county such as median rent, median home value, median income, and other measures. 
+        </p>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-5">
+        <p><b>How It's Built:</b> This project leveraged a number of tools, using a python flask app to serve data to the webpage from a SQL database. More detail on
+          the technical aspects can be found in its <a href="https://github.com/admiral810/housing-market-insights" target="_blank">Github ReadMe</a>.
+        </p>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-11">
+        <img class="gif-image" src="images/housing_bubble_chart.gif">
+      </div>
+    </div>
+
+
+    <br><br>
+
+    <!-- laptop pricing -->
+    <div class="row">
+      <div class="col-md-11">
+        <h4 class="project-header-blue">Predictive Laptop Prices</h4>
+        <p class=hashtag>#Python  #MachineLearning  #JavaScript  #HTML  #CSS  </p>
+        <p>This is an interactive webpage that you can go to here (http://housing-markets.herokuapp.com/). It allows a user to browse various 
+          housing market insights by county such as median rent, median home value, median income, and more. vizualizations include a map, bubble 
+          chart, and time series. 
+        </p>
+        <p>This project leveraged a number of tools, using a python flask app to serve data to the webpage from a SQL database. More detail on
+          the technical aspects can be found in its Github ReadMe (https://github.com/admiral810/housing-market-insights).
+        </p>
+        
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <br><br>
+
+    <!-- dynamic excel report -->
+    <div class="row">
+      <div class="col-md-11">
+        <h4 class="project-header-blue">Dynamic Category Report</h4>
+        <p class=hashtag>#AdvancedExcel  #DAX  #SQL</p>
+        <p>This was a dynamic report built using PowerPivot and SQL that allowed users to browse food category (i.e. bacon, cheese, etc.) information in an interactive format. Users clould 
+          get perspectives on category performance, competitors, pricing, attributes, and other category insights leveraging this report.
+        </p>
+        <p>This report showcases my ability to use 
+          advanced excel functions such as pivot tables, slicers, functions, formulas, and lookup. Additionally, it uses PowerPivot, which uses the same language as PowerBI in DAX which allows
+          for the creation of measures and a data model. In the backend of excel, it connected directly to a SQL database to extract data and allows for the creation of reports at scale by 
+          simply adjusting queries to the database.
+        </p>
+        <img class="gif-image" src="images/Dynamic_Report.gif">
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <br><br>
 
     <!-- tableau dashboard -->
     <div class='tableauPlaceholder' id='viz1605133505194' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ex&#47;ExampleOrderData&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ExampleOrderData&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ex&#47;ExampleOrderData&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1605133505194');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1020px';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1020px';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
