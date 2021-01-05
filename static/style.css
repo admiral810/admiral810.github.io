@@ -156,3 +156,8 @@ body  {
     padding: 10px
   }
   
+    .io {
+    height: 300px;
+    width: auto;
+    overflow: hidden; 
+  }
