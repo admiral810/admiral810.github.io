@@ -56,43 +56,65 @@
 
   <div class="container">
     <br>
-    <div>
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="section-header">Project Work</h2>
-          <hr>
-        </div>
-      </div>
-    </div>
+
 
       
     <div class="row">
-      <div class="col-md-11">
+      <div class="col-md-12">
+        <h2 class="section-header">My Portfolio</h2>
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
         <p>Thank you for visiting my portfolio! Here you can check out some actual examples of my work, which showcases projects I've done using SQL, Python, Tableau, and other 
-          data analytics tools. Each project will highlight a brief summary of what it is, how it was built, a vizualization, and may include some additional links.</p>
+        data analytics tools.</p>
+        <p>Each project will highlight: </p> 
+          <ul>
+            <li>A brief project summary</li>
+            <li>What tools were used</li>
+            <li>How it was built</li>
+            <li>A sample vizualization</li>
+            <li>Additional links (when available)</li>
+          </ul>
+        <p>If you have any question, thoughts, or feedback please don't hesitate to reach out. </p>
       </div>
       <div class="col-md-1"></div>
+      <div class="col-md-6">
+        <img src="images/tools_used.png">
+      </div>
+    </div>
+    <br><br>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="projects-section-header">Projects</h2>
+      </div>
     </div>
     <br>
-
     <!-- housing market insights -->
     <div class="row">
-      <div class="col-md-11">
+      <div class="col-md-12">
         <h4 class="project-header-blue">Housing Market Insights</h4>
         <p class=hashtag>#Python  #JavaScript  #HTML  #CSS  #SQL</p>
-        <div class="col-md-1"></div>
+        <hr>
       </div>
     </div>
+    
     <div class="row">
       <div class="col-md-5">
-        <p><b>What It Is:</b> This is an interactive web deplyed app that you can go to <a href="http://housing-markets.herokuapp.com/" target="_blank">linked HERE</a>. It allows a user to browse various 
-          housing market insights by US county such as median rent, median home value, median income, and other measures. 
+        <p><b>What It Is:</b> This is an interactive app that allows a user to browse various 
+          housing market insights by US county such as rent, home value, income, and other measures. 
         </p>
+        <p class="port-viz-desc"><b>Viz Below:</b> "Plays" a bubble chart over time, showing rent prices outpaced income in California counties.</a></p>
       </div>
       <div class="col-md-1"></div>
       <div class="col-md-5">
-        <p><b>How It's Built:</b> This project leveraged a number of tools, using a python flask app to serve data to the webpage from a SQL database. More detail on
-          the technical aspects can be found in its <a href="https://github.com/admiral810/housing-market-insights" target="_blank">Github ReadMe</a>.
+        <p><b>How It's Built:</b> Uses a python flask app to serve data to the webpage from a SQL database.</p>
+        <br>
+        <p><b>Links:</b><br>  
+            App: <a href="http://housing-markets.herokuapp.com/" target="_blank">    Webpage App</a><br> 
+            Github: <a href="https://github.com/admiral810/housing-market-insights" target="_blank">Github ReadMe</a></p>  
         </p>
       </div>
     </div>
@@ -104,39 +126,33 @@
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-md-11">
-        <p class="port-viz-desc"><b>Vizualization:</b> This displays the ability to "play" a bubble chart over time, showing how rent prices outpaced income in many counties
-          in California.  More vizualizations can be found in the <a href="http://housing-markets.herokuapp.com/" target="_blank">app</a>. 
-        </p>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
 
     <br><br>
 
 
      <!-- ipo stocks database -->
      <div class="row">
-      <div class="col-md-11">
+      <div class="col-md-12">
         <h4 class="project-header-blue">IPO Stocks Database</h4>
         <p class=hashtag>#Python  #SQL #SQLAlchemy</p>
-        <div class="col-md-1"></div>
+        <hr>
       </div>
     </div>
     <div class="row">
       <div class="col-md-5">
-        <p><b>What It Is:</b> This is a project that pulls IPO stock information using Python scripts from the web and houses it in a SQL database. Information includes dates when  
-          a company is going public, performance results, and company characteristics. 
-        </p>
+        <p><b>What It Is:</b> Pulls recent IPO stock timing, company, and performance data from the web and houses it in a SQL database.</p>
+        <p class="port-viz-desc"><b>Viz Below:</b> Shows an ER diagram for the current schema setup of the SQL database.</p>
       </div>
       <div class="col-md-1"></div>
       <div class="col-md-5">
-        <p><b>How It's Built:</b> This project leverages Python scripts to pull information from the web-including Nasdaq and Yahoo Finance-to add and update
-          the database. Stored procedures in SQL are also leveraged to add value to the dataset. More information can be found in its <a href="https://github.com/admiral810/IPO_tracker" target="_blank">Github ReadMe</a>.
+        <p><b>How It's Built:</b> Python scripts pull information from the web to add to and update the SQL database where stored procedures
+          add value to the dataset.</p>
+        <p><b>Links:</b><br>  
+          Github: <a href="https://github.com/admiral810/IPO_tracker" target="_blank">Github ReadMe</a></p>  
         </p>
       </div>
     </div>
+
 
     <br>
     <div class="row">
@@ -148,9 +164,7 @@
     <br>
     <div class="row">
       <div class="col-md-11">
-        <p class="port-viz-desc"><b>Vizualization:</b> This shows an ER diagram for the current schema setup of the SQL database. In total this database houses over 
-          300,000 records of IPO stock information. 
-        </p>
+        
       </div>
       <div class="col-md-1"></div>
     </div>
@@ -160,23 +174,25 @@
 
     <!-- laptop prices -->
     <div class="row">
-      <div class="col-md-11">
+      <div class="col-md-12">
         <h4 class="project-header-blue">Predictive Laptop Prices</h4>
         <p class=hashtag>#Python  #MachineLearning  #JavaScript  #HTML  #CSS  </p>
-        <div class="col-md-1"></div>
+        <hr>
       </div>
     </div>
     <div class="row">
       <div class="col-md-5">
-        <p><b>What It Is:</b> This is an interactive web deplyed app that you can go to <a href="https://admiral810.github.io/laptop-prices-predictor/" target="_blank">linked HERE</a>. It is a gameification deployment 
-          where a user guesses a laptop price based on a number of attributes against 3 machine trained models. 
-        </p>
+        <p><b>What It Is:</b> A gamification app where a user guesses a laptop price based on product attributes against three 
+          machine trained models.</p>
+        <p class="port-viz-desc"><b>Viz Below:</b> Shows a user entering a guess for a given laptop's price. Play for yourself <a href="https://admiral810.github.io/laptop-prices-predictor/" target="_blank">HERE</a>.
       </div>
       <div class="col-md-1"></div>
       <div class="col-md-5">
-        <p><b>How It's Built:</b> This project leveraged linear regression, random forest, and neural network models using Python.  More detail on 
-          the technical aspects can be found in its <a href="https://github.com/admiral810/laptop-prices-predictor" target="_blank">Github ReadMe</a>.
-        </p>
+        <p><b>How It's Built:</b> Leverages linear regression, random forest, and neural network machine learning models using Python.</p>
+        <p><b>Links:</b><br>  
+          App: <a href="https://admiral810.github.io/laptop-prices-predictor/" target="_blank"> Webpage App</a><br> 
+          Github: <a href="https://github.com/admiral810/laptop-prices-predictor" target="_blank">Github ReadMe</a></p>  
+      </p>
       </div>
     </div>
 
@@ -188,37 +204,29 @@
     </div>
     <br>
 
-    <div class="row">
-      <div class="col-md-11">
-        <p class="port-viz-desc"><b>Vizualization:</b> The user may reference a laptop's attributes to inform their guess of a laptops price, and 3 machine 
-          learning trained models do the same. Play for yourself <a href="https://admiral810.github.io/laptop-prices-predictor/" target="_blank">HERE</a>. 
-        </p>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
 
     <br><br>
     
   
     <!-- dynamic excel report -->
     <div class="row">
-      <div class="col-md-11">
+      <div class="col-md-12">
         <h4 class="project-header-blue">Category Management Dynamic Report</h4>
         <p class=hashtag>#AdvancedExcel  #DAX  #SQL</p>
-        <div class="col-md-1"></div>
+        <hr>
       </div>
     </div>
     <div class="row">
       <div class="col-md-5">
-        <p><b>What It Is:</b> A dynamic report that allows users to browse food category information in an interactive format. Users can 
-          get customized perspectives on category performance, competitors, pricing, attributes, and other category insights.
-        </p>
+        <p><b>What It Is:</b> A dynamic report that allows users to browse food category performance, competition, price, attributes,  
+          and other category insights.</p>
+        <p class="port-viz-desc"><b>Viz Below (left):</b> A view of the user experience in navigating portions of the report.</p>
       </div>
       <div class="col-md-1"></div>
       <div class="col-md-5">
-        <p><b>How It's Built:</b> This report uses advanced excel functionality, including PowerPivot and DAX for the creation of a data model and measures. Additionally, it connected 
-          directly to a SQL database to extract data.
-        </p>
+        <p><b>How It's Built:</b> Excel connects to SQL using PowerPivot to create a data model, and DAX functions are used to create 
+          calculated fields.</p>
+        <p class="port-viz-desc"><b>Viz Below (right):</b> A view of the backend data model which connects to SQL and the DAX measures.</p>
       </div>
     </div>
 
@@ -233,16 +241,6 @@
       </div>
     </div>
     <br>
-
-    <div class="row">
-      <div class="col-md-11">
-        <p class="port-viz-desc"><b>Vizualization:</b> The report itself cannot be shared. However you can get a sense of the navigation from the gif on the left,
-        and the gif on the right shows some of the backend architecture.</a>
-        </p>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-
     <br><br>
 
 
@@ -256,3 +254,26 @@
 </body>
 
 </html>
+
+
+<!-- Old Housing Market Insights -->
+<!-- <div class="row">
+  <div class="col-md-11">
+    <h4 class="project-header-blue">Housing Market Insights</h4>
+    <p class=hashtag>#Python  #JavaScript  #HTML  #CSS  #SQL</p>
+    <div class="col-md-1"></div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-5">
+    <p><b>What It Is:</b> This is an interactive web deplyed app that you can go to <a href="http://housing-markets.herokuapp.com/" target="_blank">linked HERE</a>. It allows a user to browse various 
+      housing market insights by US county such as median rent, median home value, median income, and other measures. 
+    </p>
+  </div>
+  <div class="col-md-1"></div>
+  <div class="col-md-5">
+    <p><b>How It's Built:</b> This project leveraged a number of tools, using a python flask app to serve data to the webpage from a SQL database. More detail on
+      the technical aspects can be found in its <a href="https://github.com/admiral810/housing-market-insights" target="_blank">Github ReadMe</a>.
+    </p>
+  </div>
+</div> -->

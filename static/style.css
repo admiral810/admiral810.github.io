@@ -88,32 +88,33 @@ body  {
   .hashtag {
     color: #118AB2;
     font-style: italic; 
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .project-header{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 900;
     font-size: 24px;
   }
 
   .project-header-blue{
-    background-color: #118AB2;
-    color: white;
-    padding: 10px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 20px; 
+    /* background-color: #F2F2F2; */
+    color: #118AB2;
+    /* padding: 10px; */
+    font-family:  'Work Sans', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    font-size: 28px;
   }
 
-  .project-header-pink{
-    background-color: #EF476F;
-    color: white;
-    padding: 10px
-  }
+.projects-section-header{
+  background-color: #F2F2F2;
+  text-align: center;
+  padding: 15px;
+}
 
   .port-viz-desc{
-    background-color:  rgba(255,182,13, .25);
+    background-color:  rgba(255,209,102);
     padding: 10px
   }
   
@@ -124,8 +125,7 @@ body  {
   }
 
 
-
-    /* old timeline  http://jsfiddle.net/cfzsgkyn/*/
+/* PREVIOUS TIMELINE  http://jsfiddle.net/cfzsgkyn/*/
 /* 
   .list-wrapper {
     position:relative;
